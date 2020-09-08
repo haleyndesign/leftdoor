@@ -1,0 +1,59 @@
+
+/*FONTS
+font-family: 'Mukta', sans-serif;
+
+COLORS
+#324549, #FFFFFF
+*/
+
+body {
+  background-color: #324549;
+  font-family: 'Mukta', sans-serif;
+  color: #fff;
+}
+
+header img {
+  width: 20%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 20px;
+}
+hr {
+  color: #fff;
+  margin-top: -10px;
+}
+
+.youtube img{
+  width: 10%;
+}
+
+p {
+  font-weight: 300;
+}
+/*desktop*/
+@media only screen and (min-width: 1024px) {
+  header img {
+    width: 10%;
+    margin: auto;
+  }
+
+  hr {
+    color: #fff;
+    margin-top: -20px;
+  }
+
+  .youtube img{
+    width: 3%;
+  }
+
+/*tablet*/
+@media only screen and (max-width: 600px) {
+
+  .youtube img{
+    width: 5%;
+  }
+
+
+}
