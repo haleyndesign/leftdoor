@@ -12,6 +12,10 @@ body {
   color: #fff;
 }
 
+p a{
+  text-decoration: none;
+  color: #fff;
+}
 header img {
   width:20%;
   margin: auto;
@@ -142,10 +146,13 @@ display: none;
   font-size: 17px;
   width: 20%;
   text-align: center;
+  margin-bottom: -30px;
+  overflow: auto
+
 }
 
 .navbardesktop a:hover {
-
+  text-decoration: line-through;
 }
 
 .navbardesktop a.active {
