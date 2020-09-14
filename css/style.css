@@ -6,10 +6,27 @@ COLORS
 #324549, #FFFFFF
 */
 * {box-sizing: border-box}
+
+
+html {
+  height: 100%;
+      margin: 0;
+}
+
 body {
   background-color: #324549;
   font-family: 'Mukta', sans-serif;
   color: #fff;
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+height: 50%;
+background-repeat: no-repeat;
+background-size: cover;
+ background-position: center;
+ overflow-x: hidden;
 }
 
 p a{
@@ -17,7 +34,7 @@ p a{
   color: #fff;
 }
 header img {
-  width:20%;
+  width: 20%;
   margin: auto;
 }
 
@@ -66,7 +83,7 @@ p {
   top: 10%;
   width: 100%;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .overlay a {
@@ -84,7 +101,7 @@ p {
 
 .overlay .closebtn {
   position: absolute;
-  top: 20px;
+  top: 10px;
   right: 45px;
   font-size: 60px;
 }
@@ -132,27 +149,30 @@ display: none;
   width: 100%;
   overflow: auto;
   display: contents;
+  position: absolute;
 }
 
 .navbardesktop img {
-  width: 40%;
+  width: 150px;
   margin-top: -30px;
+  position: relative;
 }
 .navbardesktop a {
   float: left;
-  padding: 12px;
+  padding-left: 12px;
+  padding-top: 22px;
+  padding-right: 12px;
   color: white;
   text-decoration: none;
   font-size: 17px;
   width: 20%;
   text-align: center;
-  margin-bottom: -30px;
-  overflow: auto
-
+  bottom: 0;
 }
 
 .navbardesktop a:hover {
   text-decoration: line-through;
+  font-weight: 700;
 }
 
 .navbardesktop a.active {
