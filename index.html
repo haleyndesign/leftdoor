@@ -11,19 +11,57 @@
 
   <title>Left Door Streaming</title>
 </head>
-
 <header>
+  <div class="navbardesktop">
+    <a class="active" href="about.html">About</a>
+    <a href="services.html">Services</a>
+     <a href="index.html"><img src="images/logo.png"></a>
+  <a href="nowstreaming.html">Now Streaming</a>
+    <a href="contact.html">Contact</a>
+</div>
 
-<center><a href="index.html"><img src="images/logo.png"></a>
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="nowstreaming.html">Now Streaming</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
 
-    <hr>
-  </header>
-  <br>
-<body><center>
+<div class="mobilelogo">
+  <center><a href="index.html"><img src="images/logo.png"></a></center>
+</div>
+
+<div class="open">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+
+  <script>
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+  </script>
+
+
+
+
+  <hr>
+</header>
+<body>
+  <div class="bg">
+      <img src="images/main.jpeg"></div>
+  <br><center>
 <h1>Website coming soon.<br></h1>
 <p>Contact us at <a href="mailto:leftdoorstreaming@gmail.com">leftdoorstreaming@gmail.com</a><br>and visit our Youtube page for past and future streams.</p><br><div class="youtube">
-<a href="https://www.youtube.com/c/LeftDoorStreaming/"><img src="images/youtube.png"></a></div></center>
-
+<a href="https://www.youtube.com/c/LeftDoorStreaming/"><img src="images/youtube.png"></a></div>
+</center>
+</div>
   </body>
 
   <footer>

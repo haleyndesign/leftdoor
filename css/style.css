@@ -8,10 +8,7 @@ COLORS
 * {box-sizing: border-box}
 
 
-html {
-  height: 100%;
-      margin: 0;
-}
+
 
 body {
   background-color: #324549;
@@ -21,18 +18,19 @@ body {
     margin: 0;
 }
 
-.bg {
-height: 50%;
-background-repeat: no-repeat;
-background-size: cover;
- background-position: center;
- overflow-x: hidden;
+.bg img{
+width: 100%;
+top: 0;
+opacity: 50%;
+position: relative;
+z-index: -1;
 }
 
 p a{
   text-decoration: none;
   color: #fff;
 }
+
 header img {
   width: 20%;
   margin: auto;
@@ -55,6 +53,17 @@ hr {
   width: 10%;
 }
 
+.instagram img{
+  width: 30px;
+}
+
+.desktopstream {
+  display: none;
+}
+
+.mobilestream {
+  display: contents;
+}
 p {
   font-weight: 300;
 }
@@ -73,9 +82,9 @@ p {
 }
 
 .open {
+  margin-top: -80px;
   padding-left: 5%;
-  padding-top: 5%;
-  position: absolute;
+  position: relative;
 }
 
 .overlay-content {
@@ -124,6 +133,23 @@ p {
     margin: auto;
   }
 
+
+  .bg img{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  opacity: 50%;
+  z-index: -1;
+  }
+
+  .desktopstream {
+    display: contents;
+  }
+
+  .mobilestream {
+    display: none;
+  }
+
   .mobilelogo {
     display: none;
   }
@@ -167,7 +193,6 @@ display: none;
   font-size: 17px;
   width: 20%;
   text-align: center;
-  bottom: 0;
 }
 
 .navbardesktop a:hover {
