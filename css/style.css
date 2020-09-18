@@ -21,7 +21,7 @@ body {
 .bg img{
 width: 100%;
 top: 0;
-opacity: 50%;
+opacity: 80%;
 position: relative;
 z-index: -1;
 }
