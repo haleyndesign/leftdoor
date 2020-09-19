@@ -8,8 +8,6 @@ COLORS
 * {box-sizing: border-box}
 
 
-
-
 body {
   background-color: #324549;
   font-family: 'Mukta', sans-serif;
@@ -130,12 +128,19 @@ margin-bottom: 20px;
  }
 
 /*desktop*/
-@media only screen and (min-width: 1024px) {
+
+@media only screen and (min-width: 1024px)
+{
+
   header img {
     width: 10%;
     margin: auto;
   }
 
+  hr {
+    color: #fff;
+    width: 100%;
+  }
 
   .bg img{
   width: 100%;
@@ -203,9 +208,8 @@ display: none;
   font-weight: 700;
 }
 
-.navbardesktop a.active {
-}
 
+}
 /*tablet*/
 @media only screen and (max-width: 600px) {
 
