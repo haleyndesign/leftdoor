@@ -141,7 +141,11 @@ margin-bottom: 20px;
     margin: auto;
   }
 
-hr{
+  .navlinks a {
+    margin-top: 60px;
+  }
+
+hr {
     margin-top: 130px;
     position: absolute;
 }
