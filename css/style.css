@@ -132,22 +132,26 @@ margin-bottom: 20px;
 @media only screen and (min-width: 1024px)
 {
 
+  header {
+    height: 150px;
+  }
+
   header img {
     width: 10%;
     margin: auto;
   }
 
-  hr {
-    color: #fff;
-    width: 100%;
-  }
-
-  .bg img{
+hr{
+    margin-top: 130px;
+    position: absolute;
+}
+  .bg img {
   width: 100%;
   position: absolute;
   top: 0;
   opacity: 50%;
   z-index: -1;
+  left: 0px;
   }
 
   .desktopstream {
@@ -162,10 +166,6 @@ margin-bottom: 20px;
     display: none;
   }
 
-  hr {
-    color: #fff;
-    margin-top: -20px;
-  }
 
   .youtube img{
     width: 3%;
